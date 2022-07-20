@@ -8,8 +8,7 @@ int main()
     std::cin >> year;
 
     //  Checks if the year is a leap year.
-    bool isLeapYear;
-    isLeapYear = (year % 4) == 0;
+    bool isLeapYear = ((year % 4) == 0);
     
     //  Checks if the year is a multiple of 100.
     if (isLeapYear && ((year % 100) == 0))
